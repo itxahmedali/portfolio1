@@ -1,0 +1,16 @@
+nav ul li a {
+    margin:0 5px;
+}
+
+.navbar {
+    width: 100%;
+    padding-left:9%;
+    padding-right:9%;
+    text-align: right;
+}
+@media only screen and (max-width: 650px) {
+.navbar {
+    padding-left: 7%;
+    padding-right:8%;
+}
+}

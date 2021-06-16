@@ -1,0 +1,41 @@
+.contact-section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-section-content {
+    text-align: center;
+    border: 1px solid #fc5185;
+    padding: 5% 15%;
+}
+footer {
+    background-color: #fc5185;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+
+.footer-icons {
+    color: white;
+    font-size: 1rem;
+    margin: 2%;
+}
+@media only screen and (max-width: 650px) {
+    .contact-section{
+        justify-content:center;
+        height: 70vh;
+    }
+    .contact-section h1 {
+        padding-bottom: 20px;
+    }
+    footer{
+        height:21.2vh;
+    }
+    .footer-icons{
+        margin-top:10%;
+    }
+}
